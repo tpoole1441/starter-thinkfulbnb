@@ -111,7 +111,7 @@ form select,
 form input {
   margin-right: 20px;
   margin-bottom: 10px;
-  width: 180px;
+  width: auto;
 }
 
 form button {
@@ -158,8 +158,10 @@ footer p {
     display: flex;
     flex-direction: column;
   }
-  form label {
-    margin: 0 0 5px 0;
+  form label,
+  form select,
+  form input {
+    margin: 0;
   }
   form button {
     margin: 5px;
