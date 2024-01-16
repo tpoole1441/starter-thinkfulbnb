@@ -60,7 +60,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 59px;
   color: #fff;
 }
 
@@ -162,8 +162,12 @@ footer p {
   form select,
   form input {
     margin: 0;
+    width: 100%;
   }
   form button {
-    margin: 5px;
+    margin: 0;
+  }
+  form div:first-child {
+    margin-top: 10px;
   }
 }
